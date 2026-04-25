@@ -9,9 +9,11 @@
 Phool Intelligence is a data-driven pricing tool that helps boutique owners set competitive, profitable prices for floral ethnic dress collections. It scrapes listings from Myntra, extracts design attributes, trains regression models, and serves predictions through an interactive web dashboard.
 
 **Key results:**
-- 314 Myntra listings analyzed across 20 brands
-- Random Forest model with MAE ±₹79
-- Interactive price advisor with boutique markup tiers
+- ✅ 314 Myntra listings analyzed across 20 brands
+- ✅ Random Forest model with MAE ±₹79
+- ✅ Interactive price advisor with boutique markup tiers
+- ✅ Real-time price prediction API
+- ✅ End-to-end MLOps pipeline implemented
 
 ---
 
@@ -19,7 +21,7 @@ Phool Intelligence is a data-driven pricing tool that helps boutique owners set 
 
 ```
 phool/
-├── .kiro/specs/               # Bluetooth/spec configs
+├── .kiro/specs/               # Spec configs
 ├── assets/                    # Static assets (images, icons)
 ├── data/
 │   ├── raw/                   # Raw scraped data
@@ -40,7 +42,8 @@ phool/
 │   ├── test_features.py
 │   ├── test_model.py
 │   └── test_predictor.py
-├── app.py                     # Flask/Streamlit web app entry point
+├── app.py                     # Flask web app entry point
+├── phool-intelligence.html    # Interactive dashboard
 ├── requirements.txt           # Python dependencies
 ├── .gitignore
 ├── LICENSE
@@ -56,7 +59,7 @@ phool/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/phool.git
+git clone https://github.com/Mudili-Tejaswini/phool.git
 cd phool
 ```
 
@@ -114,22 +117,56 @@ jupyter notebook notebooks/
 
 ## Top Price Drivers (Feature Importance)
 
-| Feature | Importance |
-|---|---|
-| Hemline style | 31.7% |
-| Sleeve length | 18.5% |
-| Is printed | 13.6% |
-| Dress shape | 7.8% |
-| Slit detail | 6.5% |
+| Rank | Feature | Importance |
+|---|---|---|
+| 1 | Hemline style | 31.7% |
+| 2 | Sleeve length | 18.5% |
+| 3 | Is printed | 13.6% |
+| 4 | Dress shape | 7.8% |
+| 5 | Slit detail | 6.5% |
 
 ---
 
-## Contributing
+## 🧠 Key Learnings
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- End-to-end ML pipeline development
+- Web scraping with BeautifulSoup and Requests
+- Model training & evaluation techniques
+- Feature engineering for fashion retail data
+- API development using Flask
+- Building interactive dashboards with HTML & Chart.js
+- Handling real-world dataset issues (missing values, outliers)
+- Competitive pricing strategy using data insights
 
 ---
 
-## License
+## ⭐ Future Improvements
 
-MIT License — see [LICENSE](LICENSE) for details.
+- [ ] Deploy on cloud (AWS / Render)
+- [ ] Improve model accuracy with XGBoost
+- [ ] Expand dataset to 1,000+ listings with periodic re-scraping
+- [ ] Add brand tier as an encoded feature
+- [ ] Add image-based feature extraction using CNN
+- [ ] Add authentication for API
+- [ ] Add frontend UI with Streamlit
+- [ ] Include discount percentage and MRP as additional signals
+
+---
+
+## 👩‍💻 Authors
+
+**M. Tejaswini** — B.Tech CSE (AIML) &nbsp;|&nbsp; **I. Gayathri** — B.Tech CSE (AIML) &nbsp;|&nbsp; **A. Lahari** — B.Tech CSE (AIML) &nbsp;|&nbsp; **V. Rishitha** — B.Tech CSE (AIML)
+
+---
+
+## 🙏 Acknowledgments
+
+- Data sourced from Myntra India
+- Built with open-source tools and libraries
+- Inspired by real-world pricing challenges in Indian ethnic fashion e-commerce
+
+---
+
+**Made with ❤️ for data-driven pricing decisions**
+
+*If you found this helpful, give it a ⭐ on GitHub!*
