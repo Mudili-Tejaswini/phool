@@ -2,6 +2,10 @@
 
 > Machine-learning price intelligence for the Indian ethnic fashion market, powered by Myntra data.
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Model](https://img.shields.io/badge/Model-Random%20Forest-orange.svg)
+
 ---
 
 ## Overview
@@ -155,7 +159,13 @@ jupyter notebook notebooks/
 
 ## 👩‍💻 Authors
 
-**M. Tejaswini** — B.Tech CSE (AIML) &nbsp;|&nbsp; **I. Gayathri** — B.Tech CSE (AIML) &nbsp;|&nbsp; **A. Lahari** — B.Tech CSE (AIML) &nbsp;|&nbsp; **V. Rishitha** — B.Tech CSE (AIML)
+**M. Tejaswini** — B.Tech CSE (AIML)
+
+**I. Gayathri** — B.Tech CSE (AIML)
+
+**A. Lahari** — B.Tech CSE (AIML)
+
+**V. Rishitha** — B.Tech CSE (AIML)
 
 ---
 
@@ -164,6 +174,12 @@ jupyter notebook notebooks/
 - Data sourced from Myntra India
 - Built with open-source tools and libraries
 - Inspired by real-world pricing challenges in Indian ethnic fashion e-commerce
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
